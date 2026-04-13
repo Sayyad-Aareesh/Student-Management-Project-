@@ -1,0 +1,121 @@
+/* Secure Portal Background */
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at top right, #1e293b, #0f172a);
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+  }
+  
+  /* Glassmorphism Card */
+  .loginCard {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 45px 35px;
+    border-radius: 28px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .title {
+    color: #ffffff;
+    font-size: 1.85rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+  
+  .subtitle {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    margin-bottom: 35px;
+    font-weight: 500;
+  }
+  
+  /* Form Layout */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .inputGroup {
+    position: relative;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 14px 18px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+  }
+  
+  .input::placeholder {
+    color: #64748b;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15);
+  }
+  
+  /* Primary Action Button */
+  .loginBtn {
+    background: #3b82f6;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    border-radius: 14px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .loginBtn:hover:not(:disabled) {
+    background: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 20px -5px rgba(59, 130, 246, 0.4);
+  }
+  
+  .loginBtn:disabled {
+    background: #334155;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  /* Footer Link */
+  .footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  
+  .backHome {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: color 0.2s;
+    display: inline-block;
+  }
+  
+  .backHome:hover {
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,66 @@
+.pageContainer {
+    min-height: 100vh;
+    background-color: #f8fafc;
+    padding: 40px 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto 30px;
+  }
+  
+  .title { font-size: 1.8rem; font-weight: 800; color: #1e3a8a; }
+  .subtitle { color: #64748b; font-size: 0.95rem; }
+  
+  .dashboardBtn {
+    background: white;
+    border: 2px solid #e2e8f0;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #475569;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  
+  .dashboardBtn:hover { background: #f1f5f9; border-color: #cbd5e1; }
+  
+  .tableCard {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f1f5f9;
+    overflow: hidden;
+  }
+  
+  .studentTable { width: 100%; border-collapse: collapse; text-align: left; }
+  .studentTable thead { background-color: #2563eb; color: white; }
+  .studentTable th { padding: 20px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .studentTable td { padding: 20px; border-bottom: 1px solid #f1f5f9; }
+  
+  .studentId { color: #64748b; font-weight: 500; }
+  .studentName { font-weight: 700; color: #1e293b; }
+  .studentEmail { color: #64748b; }
+  
+  .textCenter { text-align: center; }
+  
+  .viewBtn {
+    display: inline-block;
+    background: #eff6ff;
+    color: #2563eb;
+    padding: 8px 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  
+  .viewBtn:hover { background: #2563eb; color: white; transform: translateY(-2px); }
+  
+  .emptyState { text-align: center; padding: 60px; color: #94a3b8; font-style: italic; }
+  

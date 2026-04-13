@@ -1,0 +1,119 @@
+.container { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%); 
+}
+
+.loginCard { 
+  background: white; 
+  padding: 50px; 
+  border-radius: 20px; 
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1); 
+  width: 100%; 
+  max-width: 450px;
+  transition: transform 0.3s ease;
+}
+
+.loginCard:hover {
+  transform: translateY(-5px);
+}
+
+.title { 
+  text-align: center; 
+  color: #1e3a8a; 
+  margin-bottom: 35px; 
+  font-size: 3.5rem; /* Large Bold Text */
+  font-weight: 900; 
+  letter-spacing: -2px; 
+}
+
+.input { 
+  width: 100%; 
+  padding: 14px; 
+  margin-bottom: 20px; 
+  border: 2px solid #e2e8f0; 
+  border-radius: 10px; 
+  font-size: 1rem; 
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.input:focus { 
+  border-color: #2563eb; 
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+.forgotContainer {
+  text-align: right;
+  margin-bottom: 25px;
+  margin-top: -10px;
+}
+
+.forgotLink {
+  color: #2563eb;
+  font-size: 0.85rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.forgotLink:hover {
+  text-decoration: underline;
+}
+
+.loginBtn { 
+  width: 100%; 
+  padding: 16px; 
+  background: #2563eb; 
+  color: white; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  font-weight: 700; 
+  font-size: 1.1rem; 
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);
+}
+
+/* Hover effect */
+.loginBtn:hover { 
+  background: #1d4ed8; 
+  box-shadow: 0 8px 15px rgba(37, 99, 235, 0.3);
+  transform: scale(1.02);
+}
+
+/* Click effect */
+.loginBtn:active { 
+  transform: scale(0.98);
+}
+
+.footer { 
+  text-align: center; 
+  margin-top: 25px; 
+  font-size: 0.9rem; 
+  color: #64748b; 
+}
+
+.footer a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 700;
+}
+/*.backBtn { background: none; border: none; color: #64748b; font-weight: 600; cursor: pointer; }
+*/
+.backBtn{
+ 
+  text-align: center; 
+  margin-top: 25px; 
+  margin-left: 80px;
+  font-size: 0.9rem; 
+  color: #64748b;
+}
+.backBtn:active
+{
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 700; 
+
+}

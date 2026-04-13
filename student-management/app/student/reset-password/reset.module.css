@@ -1,0 +1,19 @@
+.container { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #f8fafc; padding: 20px; }
+.card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); width: 100%; max-width: 400px; }
+.title { text-align: center; color: #1e293b; margin-bottom: 20px; }
+.inputGroup { margin-bottom: 15px; }
+.label { display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 5px; color: #475569; }
+.input { width: 100%; padding: 12px; border: 1.5px solid #e2e8f0; border-radius: 8px; font-size: 1rem; }
+
+/* Real-time Checklist Styles */
+.checkList { background: #f1f5f9; padding: 10px; border-radius: 8px; margin-bottom: 15px; }
+.checkList p { font-size: 0.75rem; margin: 3px 0; font-weight: 500; }
+.valid { color: #10b981; }  /* Emerald Green */
+.invalid { color: #ef4444; } /* Rose Red */
+
+.validText { color: #10b981; font-size: 0.75rem; margin-top: 4px; }
+.invalidText { color: #ef4444; font-size: 0.75rem; margin-top: 4px; }
+
+.submitBtn { width: 100%; padding: 14px; background: #2563eb; color: white; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; transition: 0.2s; }
+.submitBtn:hover { background: #1d4ed8; }
+.submitBtn:disabled { opacity: 0.6; cursor: not-allowed; }

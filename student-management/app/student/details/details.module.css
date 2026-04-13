@@ -1,0 +1,85 @@
+/* app/student/details/details.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f1f5f9;
+    padding: 20px;
+  }
+  
+  .detailsCard {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 550px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .title {
+    color: #1e3a8a;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+  }
+  
+  .subtitle {
+    color: #64748b;
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Vertical Table Styling */
+  .verticalTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .verticalTable th, 
+  .verticalTable td {
+    padding: 16px 20px;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+  }
+  
+  .verticalTable th {
+    background-color: #f1f5f9;
+    color: #475569;
+    font-weight: 700;
+    width: 40%;
+  }
+  
+  .verticalTable td {
+    color: #1e293b;
+    font-weight: 500;
+  }
+  
+  /* Back Button Styling */
+  .actions {
+    margin-top: 10px;
+  }
+  
+  .backBtn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .backBtn:hover {
+    background-color: #1d4ed8;
+    transform: translateX(-4px);
+  }
+  
