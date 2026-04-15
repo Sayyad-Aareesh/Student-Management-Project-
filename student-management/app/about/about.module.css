@@ -1,1 +1,74 @@
 
+.mainContainer {
+    padding: 3rem 1.5rem;
+    background-color: #f8fafc;
+    min-height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  .contentSection {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .heroSection { margin-bottom: 3rem; }
+  .mainTitle { color: #1e293b; font-size: 2.5rem; }
+  .subtext { color: #64748b; font-size: 1.1rem; }
+  
+  .purposeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    perspective: 1000px; /* Essential for the 3D effect */
+    margin: 3rem 0;
+  }
+  
+  .purposeCard {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid #e2e8f0;
+    position: relative;
+  }
+  
+  /* Hover effect - Slight lift */
+  .purposeCard:hover {
+    transform: translateY(-5px);
+    border-color: #3b82f6;
+  }
+  
+  /* CLICK ANIMATION - Flipping like a book page */
+  .purposeCard.animated {
+    transform: rotateY(-15deg) scale(1.05);
+    box-shadow: 15px 15px 30px rgba(59, 130, 246, 0.2);
+    background-color: #eff6ff;
+    border-color: #3b82f6;
+  }
+  
+  .iconSticker { font-size: 3rem; margin-bottom: 1rem; }
+  .missionSection { background: white; padding: 2.5rem; border-radius: 20px; margin: 3rem 0; }
+  
+  .footerActions { display: flex; justify-content: center; gap: 1.5rem; margin-top: 2rem; }
+  
+  .primaryBtn {
+    background: #2563eb;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s;
+  }
+  
+  .primaryBtn:hover { transform: scale(1.05); }
+  
+  .secondaryBtn {
+    padding: 1rem 2rem;
+    color: #64748b;
+    text-decoration: none;
+  }
+  
